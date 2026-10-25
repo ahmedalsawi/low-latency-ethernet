@@ -1,5 +1,5 @@
 module udp_rx_checksum #(
-	parameter SUM_W  = 16
+	parameter SUM_W  = 16,
 	parameter DATA_W = 32,
 	parameter KEEP_W = $clog2(DATA_W)
 )(
